@@ -1,17 +1,9 @@
 import React from 'react';
 
 import Highcharts from 'highcharts';
-import DarkUnica from 'highcharts/themes/brand-dark';
-import HighchartsExporting from 'highcharts/modules/exporting';
 import HighchartsReact from 'highcharts-react-official';
-import HighchartsBoost from 'highcharts/modules/boost';
-import HighchartsZoom from 'highcharts/modules/mouse-wheel-zoom';
 
-DarkUnica(Highcharts);
-
-HighchartsBoost(Highcharts);
-HighchartsExporting(Highcharts);
-HighchartsZoom(Highcharts);
+// Remove all module imports for now to troubleshoot
 
 export default function LineChart({ chartName, data, xAxis }) {
   const optionsHighChart = {
