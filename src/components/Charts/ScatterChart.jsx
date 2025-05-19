@@ -3,7 +3,9 @@ import React from 'react';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 
-// Remove all module imports for now to troubleshoot
+// Module imports have been temporarily removed to troubleshoot an issue with chart rendering.
+// The issue involves potential conflicts between Highcharts modules and the current configuration.
+// Once the issue is resolved, the necessary modules will be reintroduced to enhance functionality.
 
 export default function ScatterChart({ chartName, data, xAxis }) {
   const optionsHighChart = {
