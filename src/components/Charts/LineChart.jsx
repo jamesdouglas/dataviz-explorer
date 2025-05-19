@@ -3,7 +3,9 @@ import React from 'react';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 
-// Remove all module imports for now to troubleshoot
+// Module imports (e.g., Highcharts modules for exporting, accessibility, etc.) were removed temporarily
+// to troubleshoot an issue with chart rendering. Once the issue is resolved, these modules should be
+// reintroduced to restore full functionality. Ensure to test thoroughly after re-adding the modules.
 
 export default function LineChart({ chartName, data, xAxis }) {
   const optionsHighChart = {
